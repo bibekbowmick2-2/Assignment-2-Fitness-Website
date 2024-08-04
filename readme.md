@@ -6,7 +6,8 @@
 # (Desktop motivation section of main)
 ![Screenshot 2024-08-03 003519](https://github.com/user-attachments/assets/aa421145-863c-4916-84a6-846a901f2a47)
 # (Mobile design navbar and banner)
-![Screenshot 2024-08-03 004114](https://github.com/user-attachments/assets/7382848e-cfdc-492e-bc08-5050f2ea7d7b)
+![Screenshot_20](https://github.com/user-attachments/assets/10a648e9-17aa-4461-b761-45d3d103b75a)
+
 # (Mobile design Motivation section of main)
 ![Screenshot 2024-08-03 004123](https://github.com/user-attachments/assets/75e574f2-592b-4ac8-a046-ff4cca6b4814)
 ![Screenshot 2024-08-03 004134](https://github.com/user-attachments/assets/13330fd5-ab69-4235-a206-102c1db6332e)
