@@ -111,27 +111,68 @@
 
     /* motivation design ends here */
     /* body design ends here */
+
+.imgbg {
+   
+    
+   width: 287px;
+   height: 170px;
+   border-radius: 18px;
+   /* margin-left: 40px; */
+     
+
 }
 
-@media screen and (min-width:576px) and (max-width:992px) {
-    .nav-wrapper {
-        width: auto;
-        padding: 52px 30px;
-    }
+.bg{
+    grid-template-columns: repeat(1, 1fr);
+    position: relative;
+    height: 531px;
+   
 
-    .nav-container {
-        width: 100%;
-    }
+    
+  }
 
-    div {
-        /* width: 20%; */
-        padding: 2.3% 6%;
-        text-align: center;
-        border-radius: 46px;
-    }
+  .a1{
+    font-size: 32px;
+  }
 
-    .nav-container>div>li>a {
-        font-size: 100%;
-        font-weight: 400;
-    }
+
+  .btn3{
+
+    text-align: center;
+    width: 70%;
+  }
+
+  .imgbg{
+    position: absolute;
+    bottom: 90px;
+  }
+
+
+  .ct1{
+    position: absolute;
+    left: 25px;
+    top:70px;
+    
+  }
+
+
+  .motivation-description2 {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    width: 300px;
+    white-space: normal; 
+  }
+
+
+  .motivation-description {
+    
+  }
+
+
+
+
+
 }
+

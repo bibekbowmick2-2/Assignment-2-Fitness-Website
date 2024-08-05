@@ -1,243 +1,241 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* common items  start*/
 .primary-bg {
-    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgb(35, 35, 35) 100%);
+  background: linear-gradient(180deg, rgb(17, 17, 17), rgb(35, 35, 35) 100%);
 }
 
 .secondary-bg {
-    background: rgb(21, 21, 21);
+  height: 100%;
+  background: rgb(21, 21, 21);
 }
 
 .third-color {
-    background-color: rgb(230, 83, 60);
+  background-color: rgb(230, 83, 60);
 }
 
 .button-color {
-    color: rgb(230, 83, 60);
+  color: rgb(230, 83, 60);
 }
 
 .width {
-    width: 1060px;
-    margin: 0 auto;
+  width: 1060px;
+  margin: 0 auto;
 }
 
 .font {
-    font-family: "Inter";
+  font-family: "Inter";
 }
 
 .nav-text {
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    font-weight: 400;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .banner-text {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .text-color {
-    color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .btn-primary {
-    border-radius: 42px;
-    background: rgb(230, 83, 60);
-    padding: 16px 40px 16px 40px;
-    border: none;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  padding: 16px 40px 16px 40px;
+  border: none;
 }
 
 .motivation-title {
-    color: rgb(255, 255, 255);
-    font-size: 48px;
-    font-weight: 900;
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 900;
 }
 
 .motivation-description {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
-    font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 /* common items  ends*/
 
 .hide {
-    display: none;
+  display: none;
 }
 
 /* navbar style  starts*/
 .nav-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 57px;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 57px;
 }
 
 .title {
-    font-size: 36px;
-    font-weight: 800;
+  font-size: 36px;
+  font-weight: 800;
 }
 
 .icon {
-    width: 24px;
+  width: 24px;
 }
 
 .icon img {
-    width: 100%;
+  width: 100%;
 }
 
 .nav-container {
-    width: 44%;
-    display: flex;
-    justify-content: space-between;
-    gap: 25px;
-    align-items: center;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 39px;
-    padding: 4px;
+  width: 44%;
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  padding: 4px;
 }
 
-.nav-container>div {
-    list-style: none;
+.nav-container > div {
+  list-style: none;
 }
 
-.nav-container>div>li>a {
-    text-decoration: none;
-
+.nav-container > div > li > a {
+  text-decoration: none;
 }
 
-.nav-container>div {
-    width: 20%;
-    padding: 8px 20px;
-    text-align: center;
-    border-radius: 46px;
+.nav-container > div {
+  width: 20%;
+  padding: 8px 20px;
+  text-align: center;
+  border-radius: 46px;
 }
 
 /* navbar style  ends*/
 
 /* banner style starts here  */
 .banner {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .banner-content {
-    width: 520px;
-    margin-top: 97px;
+  width: 520px;
+  margin-top: 97px;
 }
 
 .banner-title {
-    width: 100%;
-    color: rgb(255, 255, 255);
-    font-size: 78px;
-    font-weight: 900;
-    margin-bottom: 28px;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  font-size: 78px;
+  font-weight: 900;
+  margin-bottom: 28px;
 }
 
 .banner-title span {
-    font-family: "Maima";
-    Font-weight: 400;
+  font-family: "Maima";
+  font-weight: 400;
 }
 
 .banner-description {
-    margin-bottom: 28px;
+  margin-bottom: 28px;
 }
 
 .btn-download {
-    border-radius: 42px;
-    background: none;
-    padding: 16px 40px 16px 40px;
-    border: 1px solid white;
+  border-radius: 42px;
+  background: none;
+  padding: 16px 40px 16px 40px;
+  border: 1px solid white;
 }
 
 .tag-container {
-    width: 536px;
+  width: 536px;
 }
 
 .tags {
-    width: 206px;
-    height: 96px;
-    display: flex;
-    justify-content: space-between;
-    gap: 5px;
-    padding: 20px 23px;
-    box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
-    backdrop-filter: blur(20px);
-    background: rgba(48, 48, 48, 0.54);
-    margin-top: 524px;
-    position: absolute;
-    bottom: 63px;
+  width: 206px;
+  height: 96px;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  padding: 20px 23px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  margin-top: 524px;
+  position: absolute;
+  bottom: 63px;
 }
 
 .circle {
-    width: 20px;
-    height: 20px;
-    border-radius: 100%;
-    padding: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  padding: 10px;
 }
 
 .tag-1-title {
-    color: rgb(255, 255, 255);
-    font-size: 24px;
-    font-weight: 900;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 900;
 }
 
 .tag-1-description {
-    color: rgba(255, 255, 255, 0.65);
-    font-size: 16px;
-    font-weight: 400;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .banner-image-container {
-    width: 349px;
-    margin-left: 160px;
-    margin-top: 10px;
+  width: 349px;
+  margin-left: 160px;
+  margin-top: 10px;
 }
 
-.banner-image-container>img {
-    width: 349px;
-    height: 580px;
+.banner-image-container > img {
+  width: 349px;
+  height: 580px;
 }
 
 .tag-2 {
-    width: 193px;
-    height: 98px;
-    padding-top: 17px;
-    box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
-    backdrop-filter: blur(20px);
-    background: rgba(48, 48, 48, 0.54);
-    position: absolute;
-    left: 1115px;
-    top: 220px;
-    text-align: center;
+  width: 193px;
+  height: 98px;
+  padding-top: 17px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  position: absolute;
+  left: 1115px;
+  top: 220px;
+  text-align: center;
 }
 
 .tag-2-title {
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-    font-weight: 900;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 900;
 }
 
 .tag-2-description {
-    color: rgba(255, 255, 255, 0.65);
-    font-size: 13px;
-    font-weight: 400;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 13px;
+  font-weight: 400;
 }
-
 
 /* banner style ends here */
 
@@ -245,37 +243,173 @@
 
 /* motivation design starts here */
 .motivation-info {
-    width: 50%;
-    margin: 0 auto;
-    padding: 9% 0 4% 0;
+  width: 50%;
+  margin: 0 auto;
+  padding: 9% 0 4% 0;
 }
-.motivation-card-wrapper{
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    width:100%;
+.motivation-card-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
 }
-.motivation-card-container{
-    width: 75%;
-    padding: 0 3% 0 3%;
-}
-
-.motivation-card-container>.img-container{
-    width: 100%;
-    margin-bottom: 3%;
+.motivation-card-container {
+  width: 75%;
+  padding: 0 3% 0 3%;
 }
 
-.motivation-card-container .img-container img{
-    width: 100%;
-    border-radius: 50%;
-    border: 2px solid rgb(35, 35, 35);
+.motivation-card-container > .img-container {
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+.motivation-card-container .img-container img {
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid rgb(35, 35, 35);
 }
 
 .motivation-card-title {
-    font-size: 18px;
-    font-weight: 600;
-    color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
 }
 
 /* motivation design ends here */
 /* body design ends here */
+
+.bg {
+
+
+    height: 371px;
+    width: 75%;
+    /* border: 2px solid rgb(178, 70, 70); */
+    border-radius: 18px;
+    background-color: rgb(34, 34, 34);
+      padding: 30px;
+      margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
+
+.imgbg {
+
+    background-image: url("../images/run.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   width: 366px;
+   height: 312px;
+   border-radius: 18px;
+   margin-left: 40px;
+   
+     
+
+}
+
+
+.ct1{
+    width: 443px;
+   height: 289px;
+}
+
+.ct2{
+    margin-top: 20px;
+    
+}
+
+.motivation1{
+    margin-bottom: 150px;
+}
+
+
+.motivation-description2 {
+    color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  }
+
+
+
+
+
+
+  /* If you like  */
+.wrapper {
+  height: 400px;
+ margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(34, 34, 34);
+ 
+ 
+}
+
+.wrapper a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px;
+  background-color: #1aed13;
+  border-radius: 3px;
+  text-transform: uppercase;
+  color: #150f0f;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 15px;
+  padding: 20px;
+  border: 5px solid rgb(12, 231, 231);
+}
+
+.modal {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(77, 77, 77, .7);
+  transition: all .6s;
+}
+
+.modal:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal__content {
+  border-radius: 4px;
+  position: relative;
+  width: 500px;
+  max-width: 90%;
+  background: #458655;
+  padding: 3em 4em;
+}
+
+.modal__footer {
+  text-align: right;
+  a {
+    color: #585858;
+  }
+  i {
+    color: #d02d2c;
+  }
+}
+.modal__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #585858;
+  text-decoration: none;
+}
+
+
+
+
+
+
+  
