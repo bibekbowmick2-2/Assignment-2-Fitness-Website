@@ -53,9 +53,19 @@
   border: none;
 }
 
+hr{
+
+
+  border: none; /* Remove default border */
+  height: 2px; /* Set line thickness */
+  background-color: rgba(255, 255, 255, 0.1); /* Set line color */
+  margin: 20px 0; /* Add space around the line */
+  
+}
+
 .motivation-title {
   color: rgb(255, 255, 255);
-  font-size: 48px;
+  font-size: 35px;
   font-weight: 900;
 }
 
@@ -287,6 +297,7 @@
     border-radius: 18px;
     background-color: rgb(34, 34, 34);
       padding: 30px;
+      
       margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -338,11 +349,11 @@
   /* If you like  */
 .wrapper {
   height: 400px;
- margin-top: 10px;
+ 
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(34, 34, 34);
+  background-color:black;
  
  
 }
@@ -372,8 +383,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(77, 77, 77, .7);
-  transition: all .6s;
+  background: rgba(16, 16, 16, 0.7);
+  /* transition: all .6s; */
+  transition: ease-in-out .8s;
 }
 
 .modal:target {
@@ -393,7 +405,7 @@
 .modal__footer {
   text-align: right;
   a {
-    color: #585858;
+    color: #000000;
   }
   i {
     color: #d02d2c;
@@ -403,9 +415,236 @@
   position: absolute;
   top: 10px;
   right: 10px;
-  color: #585858;
+  color: #10dfff;
   text-decoration: none;
+  font-size: 54px; 
 }
+
+
+
+
+
+/* information design ends here */
+/* training design starts here */
+.training-card-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 218px;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.training-card-container2 {
+  display: grid;
+  grid-template-columns: 1.75fr 1.5fr 1.75fr;
+  grid-template-rows: 218px;
+  gap: 5px;
+  margin-bottom: 78px;
+}
+
+.img-1>img,
+.img-2>img,
+.img-3>img,
+.img-4>img,
+.img-5>img,
+.img-6>img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* trainig design ends here */
+
+/* BMI design starts here */
+.bmi-info {
+  margin-bottom: 88px;
+}
+
+/* BMI design ends here */
+
+/* BMI calculator design starts here */
+.chart-container {
+  margin-top: 55px;
+}
+
+.bmi-calculator {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 88px;
+  height: 500px;
+}
+
+.chart {
+  display: flex;
+  margin: 42px auto 0;
+}
+
+.bmi-table>p {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 16px 30px 16px 30px;
+}
+
+.bmi-title {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 12px;
+}
+
+.bold {
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+
+/* BMI calculator design ends here */
+
+/* bmi form starts here */
+
+.bmi-form {
+  margin-top: 55px;
+  width: 577px;
+}
+
+.input-container {
+  margin: 34px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  position: relative;
+}
+
+.activity {
+  grid-column: 2 span;
+}
+
+#n1{
+  position: absolute;
+  right: 20px; /* Adjust this value as needed */
+  top: 70px;
+  transform: translateY(-50%)  rotate(180deg);
+ 
+  color: #aaa; /* Icon color */
+}
+
+
+
+#n2{
+  position: absolute;
+  right: 20px; /* Adjust this value as needed */
+  top: 120px;
+  transform: translateY(-50%)  rotate(180deg);
+  color: #aaa; /* Icon color */
+}
+
+input {
+  border-radius: 8px;
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px 40px 12px 20px;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  opacity: 1;
+}
+
+/* bmi form ends here */
+/* BMI design ends here */
+
+/* team design starts here  */
+.team {
+  padding-bottom: 6%;
+}
+
+.team-wrapper {
+  margin-top: 3%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background: rgba(255, 255, 255, 0.1);
+  grid-template-rows: 300px;
+  border-radius: 3%;
+}
+
+.team-img {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+
+  padding-top: 7%;
+  padding-left: 5%;
+}
+
+.team-img>img {
+  width: 90%;
+  height: 90%;
+  border-radius: 18px;
+}
+
+.trainer-info {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  z-index: 1;
+}
+
+.trainer-title {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* team design ends here */
+/* body design ends here */
+
+/* footer design starts here */
+.footer-wrapper{
+  padding-top: 6%;
+  padding-bottom: 5%;
+}
+.footer-container {
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5%;
+}
+
+.fitness {
+  width: 40%;
+}
+
+.footer-title {
+  color: rgb(230, 83, 60);
+  font-size: 70px;
+  font-weight: 800;
+}
+.started-container{
+  display:flex;
+  justify-content: space-between;
+  width:40%;
+}
+.get-started {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.started1>ul>li {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 23px;
+  font-weight: 400;
+  list-style: none;
+  margin: 10% 0 10% 0;
+}
+.started2>ul>li {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 23px;
+  font-weight: 400;
+  list-style: none;
+  margin: 10% 0 10% 0;
+}
+
+/* footer design ends here */
 
 
 

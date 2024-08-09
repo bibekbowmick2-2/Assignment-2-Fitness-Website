@@ -1,5 +1,13 @@
 @media screen and (max-width:576px) {
 
+
+
+    body, html {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
     /* navbar style starts */
     .nav-wrapper {
         width: auto;
@@ -166,13 +174,144 @@
   }
 
 
-  .motivation-description {
+  .wrapper a {
+    height: 40px;
+    text-align: center;
+    width: 250px;
+    white-space: normal; 
+    text-decoration: none;
+    padding: 30px;
+    background-color: #1aed13;
+    border-radius: 12px;
+    text-transform: uppercase;
+    color: #150f0f;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 15px;
+    border: 5px solid rgb(12, 231, 231);
+  }
+
+
+    
+
+
+  /* BMI calculator design starts */
+  .bmi-info{
+    width:auto;
+    padding: 3%;
+    text-align: left;
+    margin-bottom: 5%;
+ }
+
+ .chart-container{
+    padding: 3%;
+ }
+
+ .bmi-calculator {
+    width:95%;
+    flex-direction: column;
+    margin-bottom: 20%;
+}
+.bmi-form{
+    margin-top: 10%;
+    width:100%;
+}
+.bmi-form-info{
+    width:90%;
+}
+.input-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   gap: 13px 3px;
+}
+
+.activity {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+input{
+    
+}
+ /* BMI calculator design ends */
+
+ /* team design starts  */
+ .team{
+    width: auto;
+ }
+ .team-wrapper{
+    display:flex;
+    flex-direction: column;
+    width: auto;
+    margin: 5%;
+    border-radius: 4%;
+    padding: 2%;
+ }
+ .team-img{
+    width: 100%;
+ }
+
+
+ .bmi-form {
+   margin-top: 23%;
+    width: 425px;
+    background-color: rgb(34, 34, 34);
+
     
   }
 
 
+  hr{
+
+   width: 90%;
+   margin: 40px auto;
+    
+  }
+
+.team {
+    margin-top: 100%;
+    padding-bottom: 6%;
+}
 
 
 
+#n1{
+    position: absolute;
+    right: 20px; /* Adjust this value as needed */
+    top: 70px;
+    transform: translateY(-50%)  rotate(180deg);
+   
+    color: #aaa; /* Icon color */
+  }
+  
+  
+  
+  #n2{
+    position: absolute;
+    right: 20px; /* Adjust this value as needed */
+    top: 120px;
+    transform: translateY(-50%)  rotate(180deg);
+    color: #aaa; /* Icon color */
+  }
+
+ 
+ /* team design ends */
+/* body design ends here */
+
+/* footer design starts here  */
+.footer-wrapper{
+    width: auto;
+}
+.footer-container{
+    flex-direction: column;
+}
+.fitness{
+    width:auto;
+    margin: 10%;
+}
+.started-container{
+    flex-direction: column;
+    width:auto;
+    margin:10%;
+}
+/* footer design ends here */
 }
 
